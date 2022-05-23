@@ -7,16 +7,18 @@ export const initialState = {
 
 const reducer = (state, action) => {
     switch(action.type) {
-        case reducerCases.SET_TOKEN: 
+        case reducerCases.SET_TOKEN: {
             return {
                 ...state, 
                 token: action.token
-            }
-        case reducerCases.SET_PLAYSLISTS:
+            };
+        }
+        case reducerCases.SET_PLAYLISTS: {
             return {
                 ...state,
                 playlists: action.playlists,
-            }
+            };
+        } 
         default: 
             return state;
     }
