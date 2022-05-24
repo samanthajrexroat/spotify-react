@@ -6,7 +6,7 @@ export const initialState = {
     userInfo: "",
     selectedPlaylistId: "4VATAcLz3qaSBUGoObtmxu",
     selectedPlaylist: "",
-    currentPlaying: null,
+    currentPlaying: "",
     playerState: false,
 }
 
