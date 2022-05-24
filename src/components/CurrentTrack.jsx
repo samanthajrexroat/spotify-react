@@ -57,8 +57,6 @@ const Container = styled.div`
         display: flex;
         align-items: center;
         gap: 1rem;
-        &_image {
-        }
         &_info {
             display: flex;
             flex-direction: column;
