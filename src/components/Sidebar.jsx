@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import {IoLibrary} from 'react-icons/io5';
 import {MdHomeFilled, MdSearch} from 'react-icons/md';
 import Playlists from './Playlists';
-
+// this is a comment
 export default function Sidebar() {
   return (
     <Container>
